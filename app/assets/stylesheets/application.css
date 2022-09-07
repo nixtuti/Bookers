@@ -18,3 +18,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fff;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+  margin: 33px;
+  font-size: 13px;
+}
+
+
+
+#notice {
+  color: green;
+}
