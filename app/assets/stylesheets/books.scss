@@ -11,7 +11,7 @@ h1 {
   margin: 17.42px 0;
   font-weight: bold;
   color: #333333;
-}
+}  
 
 table {
   display: table;
@@ -38,7 +38,7 @@ th {
   vertical-align: inherit;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 1px 1px 5px;
+  padding: 1px 1px 5px;
 }
 
 tbody {
@@ -52,6 +52,9 @@ td {
   margin: 0;
 }
 
+a {
+    color: #000;
+}
 
 h2 {
   display: block;
@@ -64,10 +67,65 @@ h2 {
   margin-bottom: 10px;
 }
 
+.field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table;
+}
+
 input {
-  padding: 1px 6px;
+  padding: 1px 2px;
 }
 
 label {
   display: block;
+}
+
+textarea {
+  padding: 2px;
+}
+
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    padding-inline-start: 40px;
+    margin: 33px;
+}
+
+#error_explanation ul li {
+    font-size: 12px;
+    list-style: square;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
 }
